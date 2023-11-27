@@ -1,0 +1,41 @@
+#fotartalom{
+    display: grid;
+    grid-template-columns: 
+    "s1 s4 s4"
+    "s1 k s2"
+    "s3 s3 s3"
+    ;
+}
+
+
+
+#sz1{
+    grid-area: s1;
+}
+
+#sz2{
+    grid-area: s2;
+    text-align: center;
+}
+
+#sz3{
+    grid-area: s3;
+}
+
+#sz4{
+    grid-area: s4;
+    color: red;
+}
+
+#kep{
+    grid-area: k;
+}
+
+#fortatalom *{
+    border: 1px black solid; /*egybefüggövonal*/
+
+}
+
+#sz1, #sz3{
+    text-align: center;
+}
